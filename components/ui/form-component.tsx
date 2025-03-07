@@ -780,7 +780,7 @@ const FormComponent: React.FC<FormComponentProps> = ({
         formData.append('file', file);
 
         try {
-            const response = await fetch('/api/upload', {
+            const response = await fetch('/home/api/upload', {
                 method: 'POST',
                 body: formData,
             });

@@ -678,7 +678,7 @@ const HomeContent = () => {
     const userId = useMemo(() => getUserId(), []);
 
     const chatOptions: UseChatOptions = useMemo(() => ({
-        api: '/api/search',
+        api: '/home/api/search',
         experimental_throttle: 500,
         body: {
             model: selectedModel,

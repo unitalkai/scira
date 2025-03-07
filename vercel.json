@@ -1,7 +1,7 @@
 {
     "crons": [
         {
-            "path": "/api/clean_images",
+            "path": "/home/api/clean_images",
             "schedule": "0 * * * *"
         }
     ],
